@@ -1,4 +1,4 @@
-import flask from Flask # imported the flask entry 
+from flask import Flask, request, jsonify, json # imported the flask entry
 
 app = Flask("__name__") #created a flask instance
 
